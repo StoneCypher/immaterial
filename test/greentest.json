@@ -1,0 +1,5 @@
+{
+  "$mui-primary-color"       : "mui-color('green', '500')",
+  "$mui-primary-color-light" : "mui-color('green', '100')",
+  "$mui-accent-color-dark"   : "mui-color('pink', 'A100')"
+}
