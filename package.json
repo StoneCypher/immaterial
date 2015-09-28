@@ -1,0 +1,19 @@
+{
+  "name": "immaterial",
+  "version": "0.1.0",
+  "description": "Google Material can be customized with just a SASS sheet.  Sadly, wrapper libraries break that.  Let's unbreak them.",
+  "main": "package.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StoneCypher/immaterial.git"
+  },
+  "author": "John Haugeland <stonecypher@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StoneCypher/immaterial/issues"
+  },
+  "homepage": "https://github.com/StoneCypher/immaterial"
+}
