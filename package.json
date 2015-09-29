@@ -1,8 +1,10 @@
 {
   "name": "immaterial",
   "main": "lib.js",
-  "bin": { "immaterial": "cli.js" },
-  "version": "0.2.1",
+  "bin": {
+    "immaterial": "cli.js"
+  },
+  "version": "0.3.0",
   "description": "Google Material can be customized with just a SASS sheet.  Sadly, wrapper libraries break that.  Let's unbreak them.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,6 +20,16 @@
   },
   "homepage": "https://github.com/StoneCypher/immaterial",
   "devDependencies": {
-    "command-line-args": "^1.0.1"
+    "angular": "^1.4.6",
+    "angular-animate": "^1.4.6",
+    "angular-aria": "^1.4.6",
+    "angular-material": "^0.11.1",
+    "command-line-args": "^1.0.1",
+    "fbjs": "^0.2.1",
+    "material-ui": "^0.12.1",
+    "muicss": "^0.1.23",
+    "react": "^0.13.3",
+    "react-dom": "^0.14.0-rc1",
+    "react-tap-event-plugin": "^0.1.8"
   }
 }

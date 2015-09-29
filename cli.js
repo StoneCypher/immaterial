@@ -14,7 +14,7 @@ if (cli.help) {
   try {
 
     var rsets = cli.input.map(function(ThisFile) { return JSON.parse(fs.readFileSync(ThisFile, 'utf8')); }),
-        rules = lib.resolve(rsets),
+        rules = lib.resolve(rsets.map(function(ThisRuleset) { return ThisRuleset.rules; })),
         res   = lib.act(cli, rules);
 
   } catch (e) {

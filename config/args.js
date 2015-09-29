@@ -17,7 +17,8 @@ module.exports = [
 
   { name: "mdl",         alias: "1", type: String,  defaultValue: true,                  description: "Output an [bold]{mdl.css} transform" },
   { name: "css",         alias: "2", type: String,  defaultValue: true,                  description: "Output a compiled [bold]{css} from the SASS" },
-  { name: "material-ui", alias: "3", type: String,  defaultValue: true,                  description: "Output a [bold]{material-ui} transform" },
-  { name: "ng-material", alias: "4", type: String,  defaultValue: true,                  description: "Output a [bold]{ng-material} transform" }
+  { name: "email",       alias: "3", type: String,  defaultValue: true,                  description: "Output a lightweight email-appropriate [bold]{css}" },
+  { name: "material-ui", alias: "4", type: String,  defaultValue: true,                  description: "Output a [bold]{material-ui} transform" },
+  { name: "ng-material", alias: "5", type: String,  defaultValue: true,                  description: "Output a [bold]{ng-material} transform" }
 
 ];

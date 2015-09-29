@@ -4,7 +4,7 @@
   "synopsis": [
     "$ immaterial mytheme.json",
     "$ immaterial mytheme.json [[bold]{--output} [underline]{theme}] [[bold]{--verbose}] [[bold]{--silent}] [[bold]{--explicit}]",
-    "$ immaterial mytheme.json [[bold]{-vse1234}] [[bold]{-o} [[underline]{theme}]]",
+    "$ immaterial mytheme.json [[bold]{-vse12345}] [[bold]{-o} [[underline]{theme}]]",
     "$ immaterial --help"
   ],
   "footer": "Project home: [underline]{https://github.com/StoneCypher/immaterial/}"
