@@ -8,10 +8,13 @@ Google Material can be customized with just a SASS sheet.  Sadly, wrapper librar
 
 ## tl;dr
 
-`npm install -g immaterial`
-`immaterial yourrules.json`
+```
+npm install -g immaterial
+immaterial yourrules.json
+```
 
-You should now see `yourrules.scss`, `yourrules.css`, `yourrules.materialui.js`, and `yourrules.ngmaterial.js`.
+You should now see `yourrules.json.scss`, `yourrules.json.email.scss`, `yourrules.json.css`, `yourrules.json.email.css`,
+`yourrules.materialui.js`, and `yourrules.ngmaterial.js`.
 
 You may create a `yourrules.json` by copying `lib/material defaults.json` to the main directory, configuring the
 rules you're interested in, and if you like, removing the others.
